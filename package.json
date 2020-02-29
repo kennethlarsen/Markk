@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -p ./src"
   },
-  "build": {
+  "bin": {
     "markk": "./bin/index.js"
   },
   "author": "",
