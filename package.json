@@ -4,7 +4,8 @@
   "description": "Documentation driven framework",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p ./src"
   },
   "author": "",
   "license": "ISC",
@@ -13,8 +14,10 @@
   },
   "devDependencies": {
     "@types/unist": "^2.0.3",
+    "command-line-args": "^5.1.1",
     "remark": "^11.0.2",
     "to-vfile": "^6.0.0",
+    "typescript": "^3.8.3",
     "unified": "^8.4.2"
   }
 }

@@ -8,7 +8,7 @@ I had this stupid idea which is now being realized into a stupid project.
 
 With Markk you write your documentation first and it will then take all code examples and create a web site from them.
 
-See the `/src` folder for examples.
+See the `/test/mocks` folder for examples.
 
 ## Why is it named Markk?
 
