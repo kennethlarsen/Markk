@@ -30,9 +30,9 @@ async function build() {
         .parse(vfile.readSync(`${folderToStart}${file}`));
 
       const fileName = file.split('.').slice(0, -1).join('.')
-      output.children.forEach((child: any) => {
+      output.children.forEach((child) => {
         if (child.type === 'code') {
-          fs.appendFileSync(`${folderToOutput}/${fileName}.html`, child.value, function (err: any) {
+          fs.appendFileSync(`${folderToOutput}/${fileName}.${child.lang}`, child.value, function (err) {
             if (err) throw err;
             console.log('File is created successfully.');
           });
@@ -42,7 +42,7 @@ async function build() {
     }
   }
 
-  catch(e) {
+  catch (e) {
     console.error(e);
   }
 }
