@@ -5,7 +5,7 @@
     "removeComments": true,
     "preserveConstEnums": true,
     "sourceMap": true,
-    "outDir": "../"
+    "outDir": "../bin"
   },
   "files": [
     "index.ts",
