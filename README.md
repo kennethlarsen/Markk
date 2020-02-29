@@ -6,9 +6,11 @@ A documentation driven web framework
 
 I had this stupid idea which is now being realized into a stupid project.
 
-With Markk you write your documentation first and it will then take all code examples and create a web site from them.
+With Markk you write your documentation first in markdown and it will then take all code examples and create a web site or a JS library from them.
 
-See the `/test/mocks` folder for examples.
+Markk it self is written in Markk! See `src/index.md` for the *actual* source code!
+
+See the `/test/mocks` folder for more examples.
 
 ## Why is it named Markk?
 
