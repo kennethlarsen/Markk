@@ -1,0 +1,20 @@
+{
+  "name": "markk",
+  "version": "1.0.0",
+  "description": "Documentation driven framework",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^13.7.6"
+  },
+  "devDependencies": {
+    "@types/unist": "^2.0.3",
+    "remark": "^11.0.2",
+    "to-vfile": "^6.0.0",
+    "unified": "^8.4.2"
+  }
+}
