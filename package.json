@@ -19,5 +19,6 @@
     "unified": "^8.4.2"
   },
   "devDependencies": {
+    "lerna-changelog": "^1.0.0"
   }
 }

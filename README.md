@@ -12,6 +12,14 @@ Markk it self is written in Markk! See `src/index.md` for the *actual* source co
 
 See the `/test/mocks` folder for more examples.
 
+## Installing
+
+`npm install -g markk`
+
+### Usage
+
+`markk --build` builds your project and outputs it to a `build` folder. It assumes you have your markdown files in a folder named `src`.
+
 ## Why is it named Markk?
 
 It is named after American Stenographic Court Reporter Mark Kislingbury who is the fastest court reporter.
