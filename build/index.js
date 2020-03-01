@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var fs = require('fs');
 const folderToStart = "src/";
 const folderToOutput = "build";
