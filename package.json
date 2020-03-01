@@ -12,12 +12,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/node": "^13.7.6"
-  },
-  "devDependencies": {
+    "@types/node": "^13.7.6",
     "command-line-args": "^5.1.1",
     "remark": "^11.0.2",
     "to-vfile": "^6.0.0",
     "unified": "^8.4.2"
+  },
+  "devDependencies": {
   }
 }
