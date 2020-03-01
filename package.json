@@ -1,6 +1,6 @@
 {
   "name": "markk",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Documentation driven framework",
   "main": "index.ts",
   "scripts": {
